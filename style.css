@@ -1,0 +1,120 @@
+a{
+    text-decoration: none;
+}
+body{
+    background-color: white;
+    background-size: 100%;
+
+    font-family: sans-serif;
+}
+.container{
+    display:flex;
+}
+.container img{
+    width: 10%;
+}
+.logo{
+    padding-left: 3%;
+}
+nav ul li a{
+    color: black;
+}
+nav ul li a:hover{
+    color: red;
+}
+
+nav{
+    margin-top:3%;
+    margin-left: 35%;
+}
+nav ul li{
+    display: inline;
+    padding: 20px;
+    justify-content: space-between;
+    font-weight: bold;
+    
+    
+}
+.container img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#child{
+    margin-top: 13%;
+    margin-left:10%;
+    margin-right: 40%;
+
+}
+#child h1{
+    font-weight: bold;
+    font-size: 35px;
+}
+#child h1 span{
+    color: rgb(255, 204, 0);
+    text-shadow: 5px;
+}
+
+#child p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.image{
+    width: 45%;
+    height:75%;
+    position: absolute;
+    bottom: 0;
+    right:260px;
+}
+.pro{
+    width: 270px;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 2%;
+}   
+
+
+.cv a{
+    text-align: center;
+    align-items: center;
+    height: 35px;
+    margin-left: 10%;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    margin-right: 80%;
+    border-radius: 5px; 
+    color: white;
+    padding: 7px;
+}
+
+.cv a:hover{
+    color:aquamarine;
+   
+}
+
+.contact{
+    width: 100%;
+}
+
+.contact  {
+    position: relative;
+    bottom: 58px;
+    left: 400px;  
+    
+}
+.contact i{
+    font-size: 25px;
+    padding: 15px;
+    justify-content: space-between;
+}
+.contact a{
+    color: black;
+}
+.contact a:hover{
+    color: rgba(11, 11, 11, 0.595); 
+}
+
+.contact i:hover{
+    transition: ease-in-out 0.1s;
+    scale: 1.1;
+}
